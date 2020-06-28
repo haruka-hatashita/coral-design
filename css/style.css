@@ -132,7 +132,6 @@ p{
 	margin-top: -5rem;
 	width: 20rem;
 	transform: rotate(270deg);
-	margin-left: 3rem;
 	float: left;
 }
 
@@ -267,7 +266,6 @@ textarea:hover{
 textarea {
   width: 47rem;
   height: 11rem;
-  max-height: 110px;
   padding: 1.5rem;
   
   background-color: white;
@@ -351,6 +349,12 @@ html{
 
 main{
 	width:95%;
+}
+
+.works-img{
+	margin-top: -18rem;
+	width: 65%;
+	padding-left: 3rem;
 }
 	
 }
