@@ -327,6 +327,9 @@ main{
 	width:95%;
 }
 
+.sp-only{
+	display: none;
+}
 	
 }
 
@@ -351,12 +354,20 @@ main{
 	width:95%;
 }
 
+.works-tlt{
+	margin-top: -5rem;
+	width: 20rem;
+	transform: rotate(270deg);
+	float: left;
+	margin-left: 3rem;
+}
+
 .works-img{
 	margin-top: -18rem;
 	width: 65%;
-	padding-left: 3rem;
+	padding-left:20rem;
 }
-	
+
 }
 
 
