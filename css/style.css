@@ -381,6 +381,12 @@ main{
 	margin:0 auto;
 	text-align: center;
 }
+
+.btn2{
+	position: absolute;
+	top:70%;
+	right:20%;
+}
 }
 
 
