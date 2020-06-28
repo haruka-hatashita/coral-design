@@ -175,7 +175,7 @@ p{
 .JP{
 	font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
 	font-weight: 500;
-	font-size: 2.2rem;
+	font-size: 2.5rem;
 	font-style: normal;
 	margin-bottom: 1rem;
 	letter-spacing:0.5rem;
@@ -334,10 +334,12 @@ main{
 }
 
 @media screen and (max-width: 999px) {
+html{
+	width: 100%;
+}
 
-html,body,main,section{
+*,html,body,main,section{
 	font-size: 28%!important;
-	width: 100%; 
 }
 
 .wrapper{
@@ -357,7 +359,7 @@ main{
 
 .works-tlt{
 	font-size: 28%;
-	margin-top: -25px;
+	margin-top: -50px;
 	width: 20rem;
 	transform: rotate(270deg);
 	float: left;
