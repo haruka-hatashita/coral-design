@@ -1,0 +1,351 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+
+	padding-bottom: 100px;
+}
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	max-width:1440px;
+	margin:0 auto;
+	font-family: 'Roboto Mono', monospace;
+	letter-spacing: 2px;
+	color: #414141;
+}
+
+
+header{
+	height:50px;
+}
+
+.logo{
+	letter-spacing: 2px;
+}
+
+h4{
+	font-size: 12px;
+}
+
+h2{
+	font-size: 15px;
+}
+
+.header-left{
+	float: left;
+	clear: both;
+}
+
+.header-right{
+	line-height: 50px;
+	float: right;
+	width:30%;
+}
+
+.navi-menu{
+	padding-right: 15px;
+	clear: both;
+	float: right;
+	display: flex;
+	justify-content: space-around;
+}
+
+.navi-menu li{
+	width:33%;
+}
+
+.top-image{
+	width:100%;
+	margin-bottom: 50px;
+}
+
+
+h1{
+	font-size: 30px;
+	font-weight: 300;
+	font-style: italic;
+	text-align: left;
+	letter-spacing: 5px;
+}
+
+h3{
+	font-size: 16px;
+	font-weight: 300;
+	font-style: italic;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+p{
+	font-size: 16px;
+	font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+	font-weight: 500;
+	font-style:normal;
+	text-align: left;
+	margin-bottom: 50px;
+	letter-spacing: 3px!important;
+	line-height: 25px;
+}
+
+.about{
+	z-index: 1;
+	position: relative;
+}
+.about-img{
+	width:76%;
+	display: block;
+	text-align: center;
+}
+
+.btn1{
+	display: block;
+	font-style: italic;
+	text-decoration: none;
+	writing-mode: vertical-lr;
+	background-color: #414141;
+	color:white;
+	white-space: nowrap;
+	padding:15px 15px 35px;
+	position: absolute;
+	bottom:-10%;
+	right:20%;
+	z-index: 2;
+}
+
+.bg-blue{
+	margin-top: -150px;
+	padding:150px 0 250px;
+	background:linear-gradient(90deg,rgba(152,199,206,0.75) 0%,rgba(152,199,206,0.75) 50%,white 50%,white 100%	);
+
+}
+
+.about-txt{
+	margin-top: 50px;
+	margin-left: 12%;
+}
+
+.works-tlt{
+	margin-top: -50px;
+	width: 200px;
+	transform: rotate(270deg);
+	margin-left: 30px;
+	float: left;
+}
+
+.works-h1{
+	display: block;
+}
+.works-h3{
+	display: block;
+}
+
+.works-img{
+	margin-top: -180px;
+	width: 65%;
+	padding-left: 300px;
+}
+
+.works-img img{
+	width: 80%;
+	margin-bottom: 30px;
+}
+
+.btn-area{
+	position: relative;
+}
+
+.btn2{
+	display: block;
+	font-style: italic;
+	text-decoration: none;
+	background-color:white;
+	color:#4f4f4f;
+	white-space: nowrap;
+	padding:15px 35px 15px 15px;
+	position: absolute;
+	top:80%;
+	right:20%;
+	z-index: 2;
+}
+
+.JP{
+	font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+	font-weight: 500;
+	font-size: 22px;
+	font-style: normal;
+	margin-bottom: 10px;
+	letter-spacing: 5px;
+}
+
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  font-size: 0.875em;
+}
+
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+  color:#414141;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color:#414141;
+  font-size: 0.875em;
+}
+
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+  color:#414141;
+}
+
+input::placeholder, textarea::placeholder {
+  color:#414141;
+  font-size: 0.875em;
+}
+
+input:focus::placeholder, textarea::focus:placeholder {
+  color:#414141;
+}
+
+input::-ms-placeholder, textarea::-ms-placeholder {
+  color: #414141;
+  font-size: 0.875em;
+}
+
+input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+  color: #bbb5af;
+}
+
+
+.contact{
+	background-color: rgba(152,199,206,0.75);
+	padding-bottom: 80px;
+	padding-top: 20px;
+}
+
+.contact-tlt{
+	text-align: center;
+	color: #414141;
+}
+
+#form {
+  position: relative;
+  width: 500px;
+  margin: 50px auto 100px auto;
+}
+
+input {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  
+  background-color: white;
+  outline: none;
+  color: #414141;
+  
+  border: solid 1px #414141;
+  border-bottom: none;
+  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+  background: white;;
+}
+
+textarea:hover{
+	background: white;
+}
+
+textarea {
+  width: 470px;
+  max-width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  
+  background-color: white;
+  outline: none;
+  
+  color: #414141;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  
+  border: solid 1px #414141;
+  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+
+
+#submit {
+  width: 502px;
+  
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  color: white;
+  
+  outline:none;
+  cursor: pointer;
+  
+  border: solid 1px #414141;
+  border-top: none;
+  background-color: #414141;
+}
+
+#submit:hover {
+  color:white;
+  background-color: #98C7CE;	
+}
+
+
+@media screen and (min-width: 1000px) {
+
+
+.wrapper{
+	width:70%;
+	margin:0 auto;
+}
+
+.container{
+	width: 100%;
+	margin:0 auto;
+	text-align: center;
+}
+
+main{
+	width:95%;
+}
+
+	
+}
+
+@media screen and (max-width: 999px) {
+
+
+.wrapper{
+	width:10	0%;
+	margin:0 auto;
+}
+
+.container{
+	width: 100%;
+	margin:0 auto;
+	text-align: center;
+}
+
+main{
+	width:95%;
+}
+	
+}
+
