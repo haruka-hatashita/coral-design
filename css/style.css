@@ -231,7 +231,8 @@ input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
 
 #form {
   position: relative;
-  width: 50rem;
+  width:50rem;
+  text-align: center;
   margin: 5rem auto 10rem auto;
 }
 
@@ -286,8 +287,7 @@ textarea {
 
 
 #submit {
-  display:block;
-  width: 50.2rem;
+ width:50rem;
   padding: 0;
   margin: -0.5rem 0 0 0;
   
@@ -376,11 +376,7 @@ main{
 	padding-left:15rem;
 }
 
-.form-wrap{
-	width:80%;
-	margin:0 auto;
-	text-align: center;
-}
+
 
 .btn2{
 	position: absolute;
