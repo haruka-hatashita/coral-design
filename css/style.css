@@ -357,12 +357,15 @@ main{
 	width:95%;
 }
 
+.works-tlt-wrap{
+	display: flex;
+	justify-content: flex-start;
+}
+
 .works-tlt{
 	font-size: 28%;
-	margin-top: -100px;
 	width: 20rem;
 	transform: rotate(270deg);
-	float: left;
 	margin-left: -3rem;
 }
 
