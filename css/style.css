@@ -335,7 +335,7 @@ main{
 
 @media screen and (max-width: 999px) {
 
-html,body,main,section,input,textarea{
+html,body,main,section{
 	font-size: 28%;
 	width: 100%; 
 }
