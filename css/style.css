@@ -359,6 +359,7 @@ main{
 	width: 20rem;
 	transform: rotate(270deg);
 	float: left;
+	margin-left: -50px;
 }
 
 .works-img{
