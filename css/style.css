@@ -336,7 +336,7 @@ main{
 @media screen and (max-width: 999px) {
 
 html,body,main,section{
-	font-size: 28%!important;
+	font-size: 28%;
 	width: 100%; 
 }
 .wrapper{
@@ -355,7 +355,7 @@ main{
 }
 
 .works-tlt{
-	font-size: 28%!important;
+	font-size: 28%;
 	margin-top: -16px;
 	width: 20rem;
 	transform: rotate(270deg);
@@ -364,91 +364,11 @@ main{
 }
 
 .works-img{
-	font-size: 28%!important;
+	font-size: 28%;
 	margin-top: -18rem;
 	width: 65%;
 	padding-left:20rem;
 }
-
-/*#form {
-	text-align: center;
-  	width:100%;
-  	margin: 5rem auto 10rem auto;
-}
-
-input {
-  font-family: 'Lato', sans-serif;
-  font-size: 0.875em;
-  width: 47rem;
-  height: 5rem;
-  padding: 0px 1.5rem 0px 1.5rem;
-  
-  background-color: white;
-  outline: none;
-  color: #414141;
-  
-  border: solid 1px #414141;
-  border-bottom: none;
-  
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-}
-
-input:hover {
-  background: white;;
-}
-
-textarea:hover{
-	background: white;
-}
-
-textarea {
-  width: 47rem;
-  height: 11rem;
-  padding: 1.5rem;
-  
-  background-color: white;
-  outline: none;
-  
-  color: #414141;
-  font-family: 'Lato', sans-serif;
-  font-size: 0.875em;
-  
-  border: solid 1px #414141;
-  
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-}
-
-
-
-#submit {
-display: inline-block;
-  width:50rem;
-  padding: 0;
-  margin: -0.5rem 0 0 0;
-  
-  font-family: 'Lato', sans-serif;
-  font-size: 0.875em;
-  color: white;
-  
-  outline:none;
-  cursor: pointer;
-  
-  border: solid 1px #414141;
-  border-top: none;
-  background-color: #414141;
-
-}
-
-#submit:hover {
-  color:white;
-  background-color: #98C7CE;	
-}*/
 
 }
 
