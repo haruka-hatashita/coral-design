@@ -1,8 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 html{
-
-	padding-bottom: 100px;
+	font-size: 62.5%; 
 }
 * {
 	margin: 0;
@@ -11,25 +10,28 @@ html{
 	max-width:1440px;
 	margin:0 auto;
 	font-family: 'Roboto Mono', monospace;
-	letter-spacing: 2px;
+	letter-spacing: 0.2rem;
 	color: #414141;
 }
 
+.wrapper{
+	overflow: hidden;
+}
 
 header{
-	height:50px;
+	height:5rem;
 }
 
 .logo{
-	letter-spacing: 2px;
+	letter-spacing: 0.2rem;
 }
 
 h4{
-	font-size: 12px;
+	font-size: 1.2rem;
 }
 
 h2{
-	font-size: 15px;
+	font-size: 1.5rem;
 }
 
 .header-left{
@@ -38,13 +40,13 @@ h2{
 }
 
 .header-right{
-	line-height: 50px;
+	line-height: 5rem;
 	float: right;
 	width:30%;
 }
 
 .navi-menu{
-	padding-right: 15px;
+	padding-right: 1.5rem;
 	clear: both;
 	float: right;
 	display: flex;
@@ -57,35 +59,35 @@ h2{
 
 .top-image{
 	width:100%;
-	margin-bottom: 50px;
+	margin-bottom:0.5rem;
 }
 
 
 h1{
-	font-size: 30px;
+	font-size: 3rem;
 	font-weight: 300;
 	font-style: italic;
 	text-align: left;
-	letter-spacing: 5px;
+	letter-spacing:0.5rem;
 }
 
 h3{
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: 300;
 	font-style: italic;
 	text-align: left;
-	margin-bottom: 10px;
+	margin-bottom: 1rem;
 }
 
 p{
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
 	font-weight: 500;
 	font-style:normal;
 	text-align: left;
-	margin-bottom: 50px;
-	letter-spacing: 3px!important;
-	line-height: 25px;
+	margin-bottom: 5rem;
+	letter-spacing: 0.3rem!important;
+	line-height: 2.5rem;
 }
 
 .about{
@@ -106,30 +108,31 @@ p{
 	background-color: #414141;
 	color:white;
 	white-space: nowrap;
-	padding:15px 15px 35px;
+	padding:1.5rem 1.5rem 3.5rem;
 	position: absolute;
 	bottom:-10%;
 	right:20%;
 	z-index: 2;
+	font-size: 1.5rem;
 }
 
 .bg-blue{
-	margin-top: -150px;
-	padding:150px 0 250px;
+	margin-top: -15rem;
+	padding:15rem 0 25rem;
 	background:linear-gradient(90deg,rgba(152,199,206,0.75) 0%,rgba(152,199,206,0.75) 50%,white 50%,white 100%	);
 
 }
 
 .about-txt{
-	margin-top: 50px;
+	margin-top: 5rem;
 	margin-left: 12%;
 }
 
 .works-tlt{
-	margin-top: -50px;
-	width: 200px;
+	margin-top: -5rem;
+	width: 20rem;
 	transform: rotate(270deg);
-	margin-left: 30px;
+	margin-left: 3rem;
 	float: left;
 }
 
@@ -141,14 +144,14 @@ p{
 }
 
 .works-img{
-	margin-top: -180px;
+	margin-top: -18rem;
 	width: 65%;
-	padding-left: 300px;
+	padding-left: 30rem;
 }
 
 .works-img img{
 	width: 80%;
-	margin-bottom: 30px;
+	margin-bottom: 3rem;
 }
 
 .btn-area{
@@ -162,20 +165,21 @@ p{
 	background-color:white;
 	color:#4f4f4f;
 	white-space: nowrap;
-	padding:15px 35px 15px 15px;
+	padding:1.5rem 3.5rem 1.5rem 1.5rem;
 	position: absolute;
 	top:80%;
 	right:20%;
 	z-index: 2;
+	font-size: 1.5rem;
 }
 
 .JP{
 	font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
 	font-weight: 500;
-	font-size: 22px;
+	font-size: 2.2rem;
 	font-style: normal;
-	margin-bottom: 10px;
-	letter-spacing: 5px;
+	margin-bottom: 1rem;
+	letter-spacing:0.5rem;
 }
 
 
@@ -217,8 +221,8 @@ input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
 
 .contact{
 	background-color: rgba(152,199,206,0.75);
-	padding-bottom: 80px;
-	padding-top: 20px;
+	padding-bottom: 8rem;
+	padding-top: 2rem;
 }
 
 .contact-tlt{
@@ -228,16 +232,16 @@ input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
 
 #form {
   position: relative;
-  width: 500px;
-  margin: 50px auto 100px auto;
+  width: 50rem;
+  margin: 5rem auto 10rem auto;
 }
 
 input {
   font-family: 'Lato', sans-serif;
   font-size: 0.875em;
-  width: 470px;
-  height: 50px;
-  padding: 0px 15px 0px 15px;
+  width: 47rem;
+  height: 5rem;
+  padding: 0px 1.5rem 0px 1.5rem;
   
   background-color: white;
   outline: none;
@@ -261,11 +265,10 @@ textarea:hover{
 }
 
 textarea {
-  width: 470px;
-  max-width: 470px;
-  height: 110px;
+  width: 47rem;
+  height: 11rem;
   max-height: 110px;
-  padding: 15px;
+  padding: 1.5rem;
   
   background-color: white;
   outline: none;
@@ -285,10 +288,10 @@ textarea {
 
 
 #submit {
-  width: 502px;
-  
+  display:block;
+  width: 50.2rem;
   padding: 0;
-  margin: -5px 0px 0px 0px;
+  margin: -0.5rem 0 0 0;
   
   font-family: 'Lato', sans-serif;
   font-size: 0.875em;
@@ -331,7 +334,10 @@ main{
 
 @media screen and (max-width: 999px) {
 
-
+html{
+	font-size: 28%;
+	width: 100%; 
+}
 .wrapper{
 	width:100%;
 	margin:0 auto;
